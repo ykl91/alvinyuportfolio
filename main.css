@@ -1,0 +1,68 @@
+.nav-link{
+    font-family: 'Ranga', cursive;
+    font-size: 25px;
+}
+
+#home{
+    background-image: url('email-pattern.png');
+    padding-bottom: 10%;
+    -webkit-animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
+#intro {
+    padding-top:5%;
+}
+
+#about img{
+    margin: 10%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#about{
+    font-family: 'Noto Serif', serif;
+}
+
+#skills h1{
+    font-family: 'Noto Serif', serif;
+}
+
+#portfolio h1{
+    font-family: 'Noto Serif', serif;
+}
+
+#contact h1{
+    font-family: 'Noto Serif', serif;
+}
+
+
+#portfolio p{
+    font-family: 'Roboto Slab', serif;
+}
+
+#contact p{
+    font-family: 'Roboto Slab', serif;
+}
+
+#contact label{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.progress-bar {
+    width: 0;
+    animation: progress 1.5s ease-in-out forwards;
+}
+
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}  
